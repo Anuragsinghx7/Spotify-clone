@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+    <title>Spotify-Clone</title>
+  </head>
+  <body>
+    <div class="thebody">
+      <nav>
+        <ul>
+          <li class="brand">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1280px-Spotify_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220821125323"
+              alt="logo.png"
+            />
+            <span>Spotify</span>
+          </li>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </nav>
+      <div class="container">
+        <h1>Nayaab:Album of the Decade</h1>
+        <div class="album">
+          <div class="songList">
+            <div class="track" id="0">
+              <img src="a2609058159_10.jpg" class="tracklist" alt="1" /><span
+                >Nayaab-Intro</span
+              ><span>2:07</span>
+            </div>
+            <div class="track" id="1">
+              <img src="a2609058159_10.jpg" class="tracklist" alt="2" /><span
+                >Batti</span
+              >
+              <span>3:08</span>
+            </div>
+            <div class="track" id="2">
+              <img src="a2609058159_10.jpg" class="tracklist" alt="3" />
+              <span>Chidiya-udd</span> <span>2:06</span>
+            </div>
+            <div class="track" id="3">
+              <img src="a2609058159_10.jpg" class="tracklist" alt="4" />
+              <span>Maina</span> <span>3:48</span>
+            </div>
+            <div class="track" id="4">
+              <img src="a2609058159_10.jpg" class="tracklist" alt="5" />
+              <span>Teen-Dost</span> <span>2:48</span>
+            </div>
+          </div>
+          <div class="songBanner"></div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="top-bottom">
+          <div class="song-info">Nayaab-Intro</div>
+          <div class="play-pauseclass">
+            <i class="fa-solid fa-backward back"></i>
+            <i class="fa-solid fa-play play"></i>
+            <i class="fa-solid fa-forward fore"></i>
+          </div>
+        </div>
+        <div class="bar">
+          <input
+            type="range"
+            min="0"
+            value="0"
+            max="100"
+            class="range"
+            div="myProgressBar"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
